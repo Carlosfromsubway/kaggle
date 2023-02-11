@@ -2,10 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-
+import record from '../Data/Yugioh.json'
 const inter = Inter({ subsets: ['latin'] })
 
+
+
 export default function Home() {
+  console.log(record);
   return (
     <>
       <Head>
@@ -15,7 +18,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <div>
+          {
+            record.map ((rec, index) => {
+              return (
+                <div key={index}>
+                  <div>{rec.id}</div>
+                  <div>{rec.name}</div>
+                  <div>{rec.type}</div>
+                </div>
+              )
+            })
+          }
 
+        </div>
       </main>
     </>
   )
