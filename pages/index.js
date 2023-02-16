@@ -27,14 +27,18 @@ export default function Home() {
                 <div key={index}>
                   <div >{rec.id}</div>
                   <div className={styles.Titles}>{rec.Name}</div>
-                  <div className={styles.spacer}></div>
-                  <Image src={rec.src} width={220} height={220}/>
-                  
+                  <div className={styles.spacer}>
+                  <Image src={rec.src} width={220} height={220} margin-top={-10}/>
+                  </div>
                   <div className={styles.Cards}>
-                    <div className={styles.cardspace1}> {rec.Type}</div>
-                 <div  className={styles.stats}> {rec.ATK}/
+                    <div className={styles.cardspace1}>
+                      <div className={styles.type}> {rec.Type}</div>
+                      <div className={styles.cardinfo}>{rec.Info}</div>
+                 <div className={styles.stats}> 
+                 {rec.ATK}/
                   {rec.DEF}
                   </div> 
+                  </div>
                   </div>
                 </div>
               )
