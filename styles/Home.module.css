@@ -1,11 +1,39 @@
+
 .main {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-color:gold ;
+  background-color: lightblue;
+  flex-wrap: wrap;
+}
+
+.main > div {
+  background-color: #ff9831;
+  width: 280px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  border: 15px solid rgb(0, 10, 62);
+  border-radius: 10px;
+  aspect-ratio: 1;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../public/Matrix-Bold.ttf);
+  font-weight: bold;
+}
+.Titles {
+  box-shadow: inset 2px 2px 0px #efefef,   5px 5px 5px 0px #a4a4a4;
+  height: 50px;
+  width: 240px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  
 }
 
 .description {
