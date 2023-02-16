@@ -29,12 +29,13 @@
 }
 .Titles {
   box-shadow: inset 2px 2px 0px #efefef,   5px 5px 5px 0px #a4a4a4;
-  height: 50px;
+  height: 30px;
   width: 240px;
   justify-content: center;
   text-align: center;
+  margin-top: 10px;
   margin-left: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   
 }
 
@@ -57,14 +58,19 @@ text-align: end;
 justify-items:center;
 margin-bottom: 10px;
 font-size: 14px;
-
+word-wrap: break-word;
 
 border: 4px solid rgb(79, 0, 0);
+}
+
+.Cards:hover {
+  background-color: #f9f4b5;
 }
 
 .cardspace1 {
   flex-direction: column;
   display: flex;
+  word-wrap: break-word;
 }
 
 .spacer {
@@ -82,6 +88,7 @@ border: 4px solid rgb(79, 0, 0);
   padding-bottom: 4px;
   padding-right: 2px;
   text-align: right;
+  
 }
 
 .type{
@@ -89,6 +96,7 @@ border: 4px solid rgb(79, 0, 0);
   margin-right: 135px;
   text-align: left;
   padding: 2px;
+  
   font-weight: bold;
 }
 
@@ -98,6 +106,9 @@ border: 4px solid rgb(79, 0, 0);
   font-size: 10px;
   text-align: left;
   line-height: 0.8;
+  word-wrap: break-word;
+ 
+  
 }
 
 .description {
