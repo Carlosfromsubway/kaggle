@@ -6,18 +6,19 @@
     "Level": "8",
     "Race": "Dragon",
     "Attribute": "LIGHT",
-    "ATK": "3000",
-    "DEF": "2500",
-    "src": ""
+    "ATK": "ATK/3000",
+    "DEF": "DEF/2500",
+    "src": "/blue eyes white dragon.png"
   },
   {
-    "Name": "The 13th Grave",
-    "Type": "Normal Monster",
-    "Level": 3,
-    "Race": "Zombie",
+    "Name": "Dark Magician",
+    "Type": "Spell Caster",
+    "Level": 7,
+    "Race": "Spellcaster",
     "Attribute": "DARK",
-    "ATK": 1200,
-    "DEF": 900
+    "ATK": 2500,
+    "DEF": 2100,
+    "src": "/Dark magician.png"
   },
   {
     "Name": "Gem-Enhancement",

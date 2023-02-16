@@ -1,18 +1,26 @@
 import styled from "styled-components";
-
+import record from '../data/Yugioh.json'
 export default function Cards() {
     return (
         <div>
-            <contain></contain>
+            <Card>
+                
+            </Card>
         </div>
     )
 }
 
-const contain = styled.div`
-width: 150px;
-height: 90px;
-color: white;
-background-color: blue;
+const Card = styled.div `
+width: 250px;
+height: 80px;
+display: flex;
+flex-direction:row;
+color: #FFFFFF;
+background-color: #FFFFFF;
+color: black;
 
+align-content: center;
+
+justify-items:center;
 
 `
