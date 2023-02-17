@@ -46,40 +46,49 @@
     "Info": "Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. Neither player can target this card with card effects. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the GY. You can Tribute 2 monsters; destroy all monsters your opponent controls. This card cannot declare an attack the turn this effect is activated."
   },
   {
-    "Name": "Castle of Dark Illusions",
-    "Type": "Flip Effect Monster",
-    "Level": 4,
-    "Race": "Fiend",
+    "Name": "Stardust Dragon",
+    "Type": "[Dragon/Synchro/Effect]",
+    "Level": "8",
+    "Race": "Dragon",
+    "Attribute": "WIND",
+    "ATK": "ATK/2500",
+    "DEF": "DEF/2000",
+    "src": "/stardust.png",
+    "Info": "1 Tuner + 1+ non-Tuner monsters When a card or effect is activated that would destroy a card(s) on the field (Quick Effect): You can Tribute this card; negate the activation, and if you do, destroy it. During the End Phase, if this effect was activated this turn (and was not negated): You can Special Summon this card from your GY."
+  },
+  {
+    "Name": "Red-Eyes Archfiend",
+    "Type": "[Dragon/Synchro/Effect]",
+    "Level": "10",
+    "Race": "Dragon",
     "Attribute": "DARK",
-    "ATK": 920,
-    "DEF": 1930
+    "ATK": "ATK/3000",
+    "DEF": "DEF/2000",
+    "src": "/red eyes archfiend.jpg",
+    "Info": "1 Tuner + 1+ non-Tuner monsters After damage calculation, if this card attacked a Defense Position monster your opponent controls: Destroy all Defense Position monsters your opponent controls. Once per turn, during your End Phase: Destroy all other monsters you control that did not declare an attack this turn. This card must be face-up on the field to activate and to resolve this effect."
+  },
+
+  {
+    "Name": "Elemental Hero Neos",
+    "Type": "Warrior/Normal",
+    "Level": "7",
+    "Race": "Warrior",
+    "Attribute": "WIND",
+    "ATK": "ATK/2500",
+    "DEF": "DEF/2000",
+    "src": "/elemental hero neos.jpg",
+    "Info": "A new Elemental HERO has arrived from Neo-Space! When he initiates a Contact Fusion with a Neo-Spacian his unknown powers are unleashed."
   },
   {
-    "Name": "Cipher Spectrum",
-    "Type": "Trap Card",
-    "Level": "",
-    "Race": "Normal",
-    "Attribute": "",
-    "ATK": "",
-    "DEF": ""
-  },
-  {
-    "Name": "Lava Golem",
-    "Type": "Effect Monster",
-    "Level": 8,
-    "Race": "Fiend",
-    "Attribute": "FIRE",
-    "ATK": 3000,
-    "DEF": 2500
-  },
-  {
-    "Name": "Dark Magic Expanded",
-    "Type": "Spell Card",
-    "Level": "",
-    "Race": "Quick-Play",
-    "Attribute": "",
-    "ATK": "",
-    "DEF": ""
+    "Name": "Cyberend Dragon",
+    "Type": "Machine/Fusion/Effect",
+    "Level": "10",
+    "Race": "Machine",
+    "Attribute": "LIGHT",
+    "ATK": "ATK/4000",
+    "DEF": "DEF/2800",
+    "src": "/Cyber end dragon.png",
+    "Info": " 'Cyber Dragon' + 'Cyber Dragon' + 'Cyber Dragon' A Fusion Summon of this card can only be done with the above Fusion Materials. If this card attacks a Defense Position monster, inflict piercing battle damage."
   },
   {
     "Name": "Seismic Crasher",
