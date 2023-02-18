@@ -13,21 +13,21 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
-  const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
-  const [menu_class, setMenuClass] = useState("menu hidden")
-  const [isMenuClicked, setIsMenuClicked] = useState(false)
+  const [burger, setBurger] = useState("burger-bar unclicked")
+  const [menu, setMenu] = useState("menu hidden")
+  const [Clicked, setClicked] = useState(false)
 
-  // toggle burger menu change
+ 
   const updateMenu = () => {
-      if(!isMenuClicked) {
-          setBurgerClass("burger-bar clicked")
-          setMenuClass("menu visible")
+      if(!Clicked) {
+          setBurger("burger-bar clicked")
+          setMenu("menu visible")
       }
       else {
-          setBurgerClass("burger-bar unclicked")
-          setMenuClass("menu hidden")
+          setBurger("burger-bar unclicked")
+          setMenu("menu hidden")
       }
-      setIsMenuClicked(!isMenuClicked)
+      setClicked(!Clicked)
   }
 
   console.log(record);
@@ -39,23 +39,24 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main} id="PageColour">
-       
-        <div >
+      <div >
             <nav>
                 <div className="burger-menu" onClick={updateMenu}>
-                    <div className={burger_class} ></div>
-                    <div className={burger_class} ></div>
-                    <div className={burger_class} ></div>
+                    <div className={burger} ></div>
+                    <div className={burger} ></div>
+                    <div className={burger} ></div>
                 </div>
                 
             </nav>
 
-            <div className={menu_class}>
+            <div className={menu}>
             <a href="/">Home</a>
-            <a href="/Info">Info</a>
+            <a href="/info">Info</a>
             </div>
         </div>
+      <main className={styles.main} id="PageColour">
+       
+
         <><h1>Yu-gi-oh Api</h1>
           {
             record.map ((rec, index) => {

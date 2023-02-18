@@ -1,13 +1,13 @@
 import { test, expect } from '@playwright/test'
 
-let urlHome = "http://localhost:3000";
+let urlHome = "http://localhost:3000/info";
 
 
-test.describe('Main area', () => {
+test.describe('Checking for P tag', () => {
     test('Header Tag', async({ page }) => {
         await page.goto(urlHome)
 
-        await expect(page.locator('h1')).toContainText('Yu-gi-oh Api');
+        await expect(page.locator('p')).toContainText('Stars represent a Monsters level');
     })
 
 

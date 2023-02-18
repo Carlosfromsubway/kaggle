@@ -19,7 +19,7 @@ test.describe("mobile viewport", () => {
         })
 
         console.log(checkingBackgroundColour);
-        expect((checkingBackgroundColour)).toBe("rgb(247, 236, 74)");
+        expect((checkingBackgroundColour)).toBe("rgb(109, 74, 247)");
     })
 })
 
