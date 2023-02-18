@@ -80,7 +80,7 @@
     "Info": "A new Elemental HERO has arrived from Neo-Space! When he initiates a Contact Fusion with a Neo-Spacian his unknown powers are unleashed."
   },
   {
-    "Name": "Cyberend Dragon",
+    "Name": "Cyber End Dragon",
     "Type": "Machine/Fusion/Effect",
     "Level": "10",
     "Race": "Machine",
@@ -91,31 +91,37 @@
     "Info": " 'Cyber Dragon' + 'Cyber Dragon' + 'Cyber Dragon' A Fusion Summon of this card can only be done with the above Fusion Materials. If this card attacks a Defense Position monster, inflict piercing battle damage."
   },
   {
-    "Name": "Seismic Crasher",
-    "Type": "Effect Monster",
-    "Level": 3,
-    "Race": "Rock",
-    "Attribute": "EARTH",
-    "ATK": 1400,
-    "DEF": 300
-  },
-  {
-    "Name": "Laval Lancelord",
-    "Type": "Effect Monster",
-    "Level": 6,
-    "Race": "Warrior",
-    "Attribute": "FIRE",
-    "ATK": 2100,
-    "DEF": 200
-  },
-  {
-    "Name": "Skull Dice",
-    "Type": "Trap Card",
+    "Name": "Pot of Greed",
+    "Type": "[Spell Card]",
     "Level": "",
-    "Race": "Normal",
+    "Race": "Spell",
+    "Attribute": "Spell",
+    "ATK": "",
+    "DEF": "",
+    "src": "/pot of greed.jpg",
+    "Info": "Draw 2 cards"
+  },
+  {
+    "Name": "Mystical Space Typhoon",
+    "Type": "[Spell Card]",
+    "Level": "",
+    "Race": "Spell",
+    "Attribute": "Spell",
+    "ATK": "",
+    "DEF": "",
+    "src": "/Mystical Space Typhoon.jpg",
+    "Info": "Target 1 Spell/Trap on the field; destroy that target."
+  },
+  {
+    "Name": "Mirror Force",
+    "Type": "[Trap Card]",
+    "Level": "",
+    "Race": "Trap",
     "Attribute": "",
     "ATK": "",
-    "DEF": ""
+    "DEF": "",
+    "src": "/Mirror force.jpg",
+    "Info": "When an opponent's monster declares an attack: Destroy all your opponent's Attack Position monsters."
   },
   {
     "Name": "Performapal Springoose",
