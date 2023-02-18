@@ -3,6 +3,9 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import record from '../data/Yugioh.json'
+import { useState } from 'react'
+import React from 'react'
+import Navbar from '@/comps/Burger'
 import Cards from '@/comps/cards'
 import styled from 'styled-components'
 const inter = Inter({ subsets: ['latin'] })
@@ -20,6 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main} id="PageColour">
+        <Navbar/>
         <><h1>Yu-gi-oh Api</h1>
           {
             record.map ((rec, index) => {
