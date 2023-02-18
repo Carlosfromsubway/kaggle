@@ -19,12 +19,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <>
+      <main className={styles.main} id="PageColour">
+        <><h1>Yu-gi-oh Api</h1>
           {
             record.map ((rec, index) => {
               return (
                 <div key={index}>
+                  
                   <div >{rec.id}</div>
                   <div className={styles.Titles}>{rec.Name}</div>
                   <div className={styles.spacer}>
@@ -44,7 +45,7 @@ export default function Home() {
               )
             })
           }
-
+          <div> <a href='/Info'></a></div>
         </>
       </main>
     </>

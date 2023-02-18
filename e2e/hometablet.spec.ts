@@ -12,14 +12,14 @@ test.use ({
 test.describe("testing for home tablet", () => {
     test("testing for colour on tablet", async ({page}) => {
         await page.goto('http://localhost:3000')
-        const mainContainer = page.locator('#colouring');
+        const mainContainer = page.locator('#PageColour');
 
         const checkingBackgroundColour = await mainContainer.evaluate((ele) => {
             return window.getComputedStyle(ele).getPropertyValue("background-color")
         })
 
         console.log(checkingBackgroundColour);
-        expect((checkingBackgroundColour)).toBe("rgb(0, 0, 255)");
+        expect((checkingBackgroundColour)).toBe("rgb(247, 236, 74)");
     })
 })
     
