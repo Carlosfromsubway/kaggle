@@ -22,4 +22,19 @@ test.describe("mobile viewport", () => {
         expect((checkingBackgroundColour)).toBe("rgb(255, 0, 0)");
     })
 })
+
+test.describe("mobile viewport", () => {
+    test("testing for colour on ihpone XR", async ({page}) => {
+        await page.goto('http://localhost:3000/Info')
+        const mainContainer = page.locator('#colouring');
+
+        const checkingBackgroundColour = await mainContainer.evaluate((ele) => {
+            return window.getComputedStyle(ele).getPropertyValue("background-color")
+        })
+
+        console.log(checkingBackgroundColour);
+        expect((checkingBackgroundColour)).toBe("rgb(255, 0, 0)");
+    })
+})
+    
     

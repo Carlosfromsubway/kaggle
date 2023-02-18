@@ -35,7 +35,7 @@ export default function Home() {
                       <div className={styles.type}> {rec.Type}</div>
                       <div className={styles.cardinfo}>{rec.Info}</div>
                  <div className={styles.stats}> 
-                 {rec.ATK}/
+                 {rec.ATK}
                   {rec.DEF}
                   </div> 
                   </div>

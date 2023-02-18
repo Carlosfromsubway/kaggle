@@ -124,94 +124,114 @@
     "Info": "When an opponent's monster declares an attack: Destroy all your opponent's Attack Position monsters."
   },
   {
-    "Name": "Performapal Springoose",
-    "Type": "Effect Monster",
-    "Level": 5,
-    "Race": "Winged Beast",
-    "Attribute": "WIND",
-    "ATK": 1100,
-    "DEF": 2400
+    "Name": "Monster Reborn",
+    "Type": "[Spell Card]",
+    "Level": "",
+    "Race": "Spell",
+    "Attribute": "",
+    "ATK": "",
+    "DEF": "",
+    "src": "/Monster reborn.jpg",
+    "Info": "Target 1 monster in either GY; Special Summon it."
   },
   {
-    "Name": "Miracle Flipper",
-    "Type": "Effect Monster",
-    "Level": 2,
-    "Race": "Spellcaster",
+    "Name": "Number 39: Utopia",
+    "Type": "[Warrior/XYZ/Effect]",
+    "Level": "4",
+    "Race": "Warrior",
     "Attribute": "LIGHT",
-    "ATK": 300,
-    "DEF": 500
+    "ATK": "2500",
+    "DEF": "2000",
+    "src": "/number 39 utopia.png",
+    "Info": "2 Level 4 monsters When a monster declares an attack: You can detach 1 material from this card; negate the attack. If this card is targeted for an attack, while it has no material: Destroy this card."
   },
   {
-    "Name": "Key Mouse",
-    "Type": "Tuner Monster",
-    "Level": 1,
-    "Race": "Beast",
-    "Attribute": "EARTH",
-    "ATK": 100,
-    "DEF": 100
-  },
-  {
-    "Name": "Mischief of the Gnomes",
-    "Type": "Trap Card",
-    "Level": "",
-    "Race": "Normal",
-    "Attribute": "",
-    "ATK": "",
-    "DEF": ""
-  },
-  {
-    "Name": "Vylon Hept",
-    "Type": "Effect Monster",
-    "Level": 4,
-    "Race": "Fairy",
-    "Attribute": "LIGHT",
-    "ATK": 1800,
-    "DEF": 800
-  },
-  {
-    "Name": "Koa'ki Meiru Prototype",
-    "Type": "Effect Monster",
-    "Level": 4,
-    "Race": "Rock",
-    "Attribute": "EARTH",
-    "ATK": 1800,
-    "DEF": 1800
-  },
-  {
-    "Name": "Koa'ki Meiru Token",
-    "Type": "Token",
-    "Level": "",
-    "Race": "Rock",
-    "Attribute": "",
-    "ATK": "",
-    "DEF": ""
-  },
-  {
-    "Name": "Hero Flash!!",
-    "Type": "Spell Card",
-    "Level": "",
-    "Race": "Normal",
-    "Attribute": "",
-    "ATK": "",
-    "DEF": ""
-  },
-  {
-    "Name": "E - Emergency Call",
-    "Type": "Spell Card",
-    "Level": "",
-    "Race": "Normal",
-    "Attribute": "",
-    "ATK": "",
-    "DEF": ""
-  },
-  {
-    "Name": "Fenrir",
-    "Type": "Effect Monster",
-    "Level": 4,
-    "Race": "Beast",
+    "Name": "Number 47: Nightmare Shark",
+    "Type": "[Sea Serpant/XYZ/Effect]",
+    "Level": "4",
+    "Race": "Sea serpant",
     "Attribute": "WATER",
-    "ATK": 1400,
-    "DEF": 1200
+    "ATK": "2000",
+    "DEF": "2000",
+    "src": "/Number 47.jpg",
+    "Info": "2 Level 3 monsters When this card is Special Summoned: You can attach 1 Level 3 WATER monster from your hand or your side of the field to this card as an Xyz Material. Once per turn: You can detach 1 Xyz Material from this card, then target 1 WATER monster you control; this turn, that monster can attack your opponent directly, also other monsters cannot attack."
+  },
+  {
+    "Name": "Polymerization",
+    "Type": "[Spell Card]",
+    "Level": "",
+    "Race": "Spell",
+    "Attribute": "",
+    "ATK": "",
+    "DEF": "",
+    "src": "/polymerization.jpg",
+    "Info": "Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material."
+  },
+  {
+    "Name": "Galaxy Eyes Photon Dragon",
+    "Type": "[Dragon/Effect]",
+    "Level": "8",
+    "Race": "Dragon",
+    "Attribute": "LIGHT",
+    "ATK": "ATK/3000",
+    "DEF": "DEF/2500",
+    "src": "/galaxy eyes photon dragon.jpg",
+    "Info": "You can Special Summon this card (from your hand) by Tributing 2 monsters with 2000 or more ATK. During the Battle Step, if this card battles an opponent's monster (Quick Effect): You can target that opponent's monster; banish both this card from the field and that target. Return those banished monsters to the field at the end of the Battle Phase, and if you banished an Xyz Monster, this card gains 500 ATK for each material it had when it was banished."
+  },
+  {
+    "Name": "Odd Eyes Pendulum Dragon",
+    "Type": "[Dragon/Pendulum/Effect]",
+    "Level": "7",
+    "Race": "Dragon",
+    "Attribute": "DARK",
+    "ATK": "ATK/2500",
+    "DEF": "DEF/2000",
+    "src": "/odd eyes pendulum dragon.jpg",
+    "Info": "If this card battles an opponent's monster, any battle damage this card inflicts to your opponent is doubled."
+  },
+  {
+    "Name": "Dark Rebellion XYZ Dragon",
+    "Type": "[Dragon/XYZ/Effect]",
+    "Level": "4",
+    "Race": "Dragon",
+    "Attribute": "DARK",
+    "ATK": "ATK/2500",
+    "DEF": "DEF/2000",
+    "src": "/Dark rebellion XYZ Dragon.jpg",
+    "Info": "2 Level 4 monsters You can detach 2 materials from this card, then target 1 face-up monster your opponent controls; its ATK becomes half its current ATK, and if it does, this card gains that lost ATK."
+  },
+  {
+    "Name": "D/D/D Doom King Armageddon",
+    "Type": "[Fiend/Pendulum/Effect]",
+    "Level": "8",
+    "Race": "Fiend",
+    "Attribute": "DARK",
+    "ATK": "ATK/3000",
+    "DEF": "DEF/2500",
+    "src": "/dddDoom King A.jpg",
+    "Info": "Once per turn, if a monster(s) you control is destroyed by battle or card effect: You can target 1 of those monsters; this card gains ATK equal to that monster's original ATK until the end of this turn. This card cannot attack your opponent directly during the turn this effect is activated. Cannot be destroyed by Spell/Trap effects that do not target this card."
+  },
+  {
+    "Name": "Raigeki",
+    "Type": "[Spell Card]",
+    "Level": "",
+    "Race": "Spell",
+    "Attribute": "",
+    "ATK": "",
+    "DEF": "",
+    "src": "/Raigeki.png",
+    "Info": "Destroy all monsters your opponent controls"
+  },
+  {
+    "Name": "Harpie's Feather Duster",
+    "Type": "[Spell Card]",
+    "Level": "",
+    "Race": "Spell",
+    "Attribute": "",
+    "ATK": "",
+    "DEF": "",
+    "src": "/Harpie_Feather_Duster.png",
+    "Info": "Destroy all spells and traps your opponent controls."
   },
   {
     "Name": "Ballista of Rampart Smashing",
