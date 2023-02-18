@@ -3,9 +3,9 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import record from '../data/Yugioh.json'
+
 import { useState } from 'react'
 import React from 'react'
-import Navbar from '@/comps/Burger'
 import Cards from '@/comps/cards'
 import styled from 'styled-components'
 const inter = Inter({ subsets: ['latin'] })
@@ -13,6 +13,23 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
+  const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
+  const [menu_class, setMenuClass] = useState("menu hidden")
+  const [isMenuClicked, setIsMenuClicked] = useState(false)
+
+  // toggle burger menu change
+  const updateMenu = () => {
+      if(!isMenuClicked) {
+          setBurgerClass("burger-bar clicked")
+          setMenuClass("menu visible")
+      }
+      else {
+          setBurgerClass("burger-bar unclicked")
+          setMenuClass("menu hidden")
+      }
+      setIsMenuClicked(!isMenuClicked)
+  }
+
   console.log(record);
   return (
     <>
@@ -23,7 +40,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main} id="PageColour">
-        <Navbar/>
+       
+        <div >
+            <nav>
+                <div className="burger-menu" onClick={updateMenu}>
+                    <div className={burger_class} ></div>
+                    <div className={burger_class} ></div>
+                    <div className={burger_class} ></div>
+                </div>
+                
+            </nav>
+
+            <div className={menu_class}>
+            <a href="/">Home</a>
+            <a href="/Info">Info</a>
+            </div>
+        </div>
         <><h1>Yu-gi-oh Api</h1>
           {
             record.map ((rec, index) => {
@@ -49,7 +81,7 @@ export default function Home() {
               )
             })
           }
-          <div> <a href='/Info'></a></div>
+          
         </>
       </main>
     </>
