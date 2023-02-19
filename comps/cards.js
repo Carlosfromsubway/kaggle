@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import record from '../data/Yugioh.json'
+
 export default function Cards() {
     return (
         <div>
