@@ -13,6 +13,6 @@ test.describe('Main area', () => {
 
     test('Seeing if a link is in the main area', async({ page }) => { 
         await page.goto(urlHome)
-        await expect(page.locator('div > a')).toHaveCount(1);
+        await expect(page.locator('div > a')).toHaveCount(2);
     })
 })

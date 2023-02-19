@@ -1,18 +1,18 @@
 import { test, expect } from '@playwright/test'
 
-let urlHome = "http://localhost:3000/info";
+let urlInfo = "http://localhost:3000/info";
 
 
-test.describe('Checking for P tag', () => {
-    test('Header Tag', async({ page }) => {
-        await page.goto(urlHome)
+test.describe('Checking div amounts', () => {
+    test('P Tag', async({ page }) => {
+        await page.goto(urlInfo)
 
-        await expect(page.locator('p')).toContainText('Stars represent a Monsters level');
+        await expect(page.locator('div')).toHaveCount(15);
     })
 
 
-    test('Seeing if a link is in the main area', async({ page }) => { 
-        await page.goto(urlHome)
-        await expect(page.locator('div > a')).toHaveCount(1);
+    test('img on the info page', async({ page }) => { 
+        await page.goto(urlInfo)
+        await expect(page.locator('div > img')).toHaveCount(2);
     })
 })
