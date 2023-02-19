@@ -2,12 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import record from '../data/Yugioh.json'
-
+import record from '../Data/yugioh.json'
 import { useState } from 'react'
 import React from 'react'
-import Cards from '@/comps/cards'
-import styled from 'styled-components'
+
 const inter = Inter({ subsets: ['latin'] })
 
 
