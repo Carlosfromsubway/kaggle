@@ -2,12 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import record from '../data/Yugioh.json'
-
 import { useState, useEffect } from 'react'
 import React from 'react'
-import Cards from '@/comps/cards'
-import styled from 'styled-components'
+
 export default function InfoPage() {
     const [burger, setBurger] = useState("burger-bar unclicked")
     const [menu, setMenu] = useState("menu hidden")
