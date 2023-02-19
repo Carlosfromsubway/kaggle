@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import record from '../Data/yugioh.json'
+import record from '../Data/Yugioh.json'
 import { useState } from 'react'
 import React from 'react'
 
